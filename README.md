@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Website Built with Drupal CMS, where You can Find the Hopitals on the basis of Near by Location, Names and Speciality.This is of utmost importance for all categories of People who are in need of hospital in their area.
+This is the Website Built with Drupal CMS. where You can Find the Hopitals on the basis of Near by Location, Names and Speciality.This is of utmost importance for all categories of People who are in need of hospital in their area.
 
 
 ## Collaborators of Project
@@ -8,7 +8,7 @@ This is a Website Built with Drupal CMS, where You can Find the Hopitals on the 
 1. Keshav (Team Leader)
 2. Aadhar
 3. Riya
-4. Adesh
+4. Aadesh
 
 
 ABOUT DRUPAL
@@ -51,7 +51,18 @@ More about configuration:
 
 ## Modules Used
 
-2. Telephone 
+1. Search Api
+
+
+### Search Api
+
+This module provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine. For site administrators, it is a great alternative to other search solutions, since it already incorporates facetting support and the ability to use the Views module for displaying search results, filters, etc. Also, with the Apache Solr integration, a high-performance search engine is available for this module.
+
+Developers, on the other hand, will be impressed by the large flexibility and numerous ways of extension the module provides. Hence, the growing number of additional contrib modules, providing additional functionality or helping users customize some aspects of the search process.
+
+
+### Telephone
+
 
 
 
@@ -62,17 +73,6 @@ More about configuration:
 
 1. U can search for Hospitals using Names , Location and Speciality.
 2. Can be used in case of Emergency for finding Nearby Hospitals.
-
-
-## Contribution
-
-> Keshav
-> Riya
-> Adesh
-> Aadhar
-
-
-
 
 
 
