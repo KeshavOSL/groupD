@@ -8,7 +8,7 @@ This is the Website Built with Drupal CMS. where You can Find the Hopitals on th
 1. Keshav (Team Leader)
 2. Aadhar
 3. Riya
-4. Aadesh
+4. Adesh
 
 
 ABOUT DRUPAL
@@ -52,6 +52,12 @@ More about configuration:
 ## Modules Used
 
 1. Search Api
+2. Telephone
+3. AddToAny
+4. AdminToolbar
+5. Webform
+6. FlexSlider
+7. Pathauto
 
 
 ### Search Api
@@ -62,6 +68,8 @@ Developers, on the other hand, will be impressed by the large flexibility and nu
 
 
 ### Telephone
+
+Backport of the Drupal 8 core 'telephone' module as an future-proof alternative to the Phone module.
 
 
 
