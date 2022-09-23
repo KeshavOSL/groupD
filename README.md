@@ -117,6 +117,7 @@ The aliases are based upon a "pattern" system that uses tokens which the adminis
 
 ## Page Components
 
+
 ### a.Contact Us
 
 Contact Us component uses a custom block,made of custom block type contactus, has the fields of body, copyright, disclaimer, phone number, registration using text field type, link using link field type, and telephone field containing telephone number field type coming from telephone module.
@@ -127,6 +128,7 @@ The block is then placed in the footer fourth region of website layout.
 
 This component was made by Adesh.
 
+
 ### b.Social Media Links
 
 Social media links uses a custom block of custom type sociallinks, containing two fields body and follow us , both of type text.
@@ -136,6 +138,7 @@ The labels are hidden.
 The block is placed in the footer fifth region of website layout.
 
 This component was made by Adesh.
+
 
 ### c.Hero Page
 
@@ -152,6 +155,7 @@ This block is placed in the content region of website layout.
 
 This component was made by Riya Dongre.
 
+
 ### d.About Us
 
 About Us is a page displaying information about the services , the people involved with the cause, work done,mission, core values and vision, statistics, governance and commitments of the organisation.
@@ -162,19 +166,55 @@ This block is placed in the content region of website layout.
 
 This component was made by Riya Dongre.
 
-### e.
+
+### e.E-mail Signup
+
+This is a component made in order to provide visitors functionality to Signup for our daily emails regarding Leukemia and Lymphoma Society.
+
+Here we created a new webform having five Text fields of different types like number and text namely – First Name, Last Name, Mobile, Zip Code and Telephone number.
+
+Used flex layout to bring 4 fields in flex type.
+
+Enabled validation for all these fields of multiple types and a configured submit button.
+
+Created a Content Type for this and Made a view of Block type for implementing it.
+
+This block is placed in the content region.
+
+This component was made by Aadhar Gupta.
 
 
+### f.Readme.md
+
+Created documentations of multiple components, contributors and project descriptions.
+
+This file was made by Aadhar and Adesh.
 
 
+### g.Search API
 
+Added search api module and placed it in highlighted region of web site.
 
+Modules Enables: search api,Database Search, Database Search Deafualts
 
+Index and Server Were edited from: Home > Administration > Configuration > Search and metadata
 
+The Fields Used In Index are Location, Speciality, Title.
 
+Then a New View is created with settings Index Default content index of type page and then exposed as a block.
 
+This component is displayed as a standalone page and also as exposed search.
 
+This was made by Keshav.   
+   
+   
+### h.Testimonial Page
 
+Testimonial page contains reviews and experiences of the contributors, how they felt and their ratings.
+
+Testimonials Page is created Using Views of grid format including title field, image field , body, displaying flex slider carousel. Filter criteria of content type news and article was selected.
+
+This component was made by Keshav and Aadhar.
 
 
 # License
