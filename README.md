@@ -5,7 +5,7 @@ This is the Website Built with Drupal CMS. where You can Find the Hopitals on th
 
 ## Collaborators of Project
 
-1. Keshav (Team Leader)
+1. Keshav
 2. Aadhar
 3. Riya
 4. Adesh
@@ -62,18 +62,49 @@ More about configuration:
 
 ### Search Api
 
-This module provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine. For site administrators, it is a great alternative to other search solutions, since it already incorporates facetting support and the ability to use the Views module for displaying search results, filters, etc. Also, with the Apache Solr integration, a high-performance search engine is available for this module.
+Search api module provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine. 
+Especially for site administrators, it is a great alternative to other search solutions, since it already has good support and the ability to use the Views module for displaying search results, filters, etc. 
 
-Developers, on the other hand, will be impressed by the large flexibility and numerous ways of extension the module provides. Hence, the growing number of additional contrib modules, providing additional functionality or helping users customize some aspects of the search process.
+It already comes with Apache Solr integration, a high-performance search engine.
 
 
 ### Telephone
 
-Backport of the Drupal 8 core 'telephone' module as an future-proof alternative to the Phone module.
+Telephone module inside of the Drupal 8 core is a future-proof alternative to the Phone module. It adds the functionality of input of full formats of contact numbers.
 
 
+### AddToAny
+
+AddToAny module adds the share buttons for Drupal including AddToAny's universal sharing button, Facebook, Twitter, Pinterest, WhatsApp, Reddit, SMS, email and many more.
+
+The module also includes vector share buttons and use AddToAny SVG icons. AddToAny vector icons load efficiently, are mathematically precise, scalable to any size, and stunning on High-PPI screens such as Retina and Retina HD displays.
 
 
+### AdminToolbar
+
+The Admin Toolbar module is uded to improve the default Toolbar (the administration menu at the top of your site) to transform it into a drop-down menu, providing a fast access to all administration pages.
+
+The module works on the top of the default toolbar core module and is therefore a light module and keeps all the toolbar functionalities (shortcut / media responsive).
+
+
+### Webform
+
+The Webform module is used to build any type of form to collect any type of data, which can be submitted to any application or system. 
+Each behavior and aspect of your forms and their inputs are customizable. 
+Whether you need a multi-page form containing a multi-column input layout with conditional logic or a simple contact form that pushes data to a SalesForce/CRM, it is all possible using the Webform module for Drupal 8/9.
+
+
+### Flexslider
+
+Flex Slider module integrates the Flex Slider library with Drupal and several contributed modules which allows us to build responsive, resizable slideshows. 
+The slideshows automatically adapt to the size of the browser window or device.
+
+
+### Pathauto
+
+The Pathauto module automatically generates URL/path aliases for various kinds of content (nodes, taxonomy terms, users) without requiring the user to manually specify the path alias. 
+This allows you to have URL aliases like /category/my-node-title instead of /node/123. 
+The aliases are based upon a "pattern" system that uses tokens which the administrator can change.
 
 
 
