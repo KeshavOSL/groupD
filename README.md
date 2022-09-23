@@ -1,6 +1,6 @@
 # Introduction
 
-This is the Website Built with Drupal CMS. where You can Find the Hopitals on the basis of Near by Location, Names and Speciality.This is of utmost importance for all categories of People who are in need of hospital in their area.
+This is a Website Built with Drupal CMS, where You can Find the Hopitals on the basis of Near by Location, Names and Speciality.This is of utmost importance for all categories of People who are in need of hospital in their area.
 
 
 ## Collaborators of Project
@@ -8,7 +8,7 @@ This is the Website Built with Drupal CMS. where You can Find the Hopitals on th
 1. Keshav (Team Leader)
 2. Aadhar
 3. Riya
-4. Aadesh
+4. Adesh
 
 
 ABOUT DRUPAL
@@ -51,7 +51,7 @@ More about configuration:
 
 ## Modules Used
 
-1. 
+2. Telephone 
 
 
 
@@ -67,6 +67,9 @@ More about configuration:
 ## Contribution
 
 > Keshav
+> Riya
+> Adesh
+> Aadhar
 
 
 
