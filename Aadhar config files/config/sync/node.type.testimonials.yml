@@ -1,0 +1,17 @@
+uuid: 77878700-6f57-421f-9ee6-b266cb0a9828
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Testimonials
+type: testimonials
+description: 'for Testimonials'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
