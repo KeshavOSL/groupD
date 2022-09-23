@@ -1,0 +1,23 @@
+uuid: f1741dfc-112f-4d86-b85d-204d18bc5b56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hospitals
+  module:
+    - text
+id: node.hospitals.body
+field_name: body
+entity_type: node
+bundle: hospitals
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

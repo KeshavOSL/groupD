@@ -1,0 +1,35 @@
+uuid: 750f10d8-002e-41b3-85ae-68c10a5bed4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials
+    - field.field.block_content.testimonials.body
+    - field.field.block_content.testimonials.field_image
+  module:
+    - image
+    - text
+id: block_content.testimonials.default
+targetEntityType: block_content
+bundle: testimonials
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,52 @@
+uuid: 318038f1-4f54-486c-9e05-675d9ac28af0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hospitals.body
+    - field.field.node.hospitals.field_image
+    - field.field.node.hospitals.field_location
+    - image.style.medium
+    - node.type.hospitals
+  module:
+    - image
+    - text
+    - user
+id: node.hospitals.default
+targetEntityType: node
+bundle: hospitals
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_location:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  addtoany: true
+  search_api_excerpt: true
