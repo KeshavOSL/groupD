@@ -1,0 +1,19 @@
+uuid: cf655f92-dcc4-4dfb-84c4-d1f4d4140e99
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contactus
+    - field.storage.block_content.field_registration
+id: block_content.contactus.field_registration
+field_name: field_registration
+entity_type: block_content
+bundle: contactus
+label: registration
+description: 'registration number'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

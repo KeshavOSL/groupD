@@ -1,0 +1,42 @@
+uuid: 1eb455fb-c3e5-41cd-9ab7-e77f14b36eb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sociallinks
+    - field.field.block_content.sociallinks.body
+    - field.field.block_content.sociallinks.field_follow_us
+  module:
+    - text
+id: block_content.sociallinks.default
+targetEntityType: block_content
+bundle: sociallinks
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_follow_us:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

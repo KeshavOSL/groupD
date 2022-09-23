@@ -1,0 +1,88 @@
+uuid: d5c45931-db74-45d5-975c-ffe372e12755
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contactus
+    - field.field.block_content.contactus.body
+    - field.field.block_content.contactus.field_copyright
+    - field.field.block_content.contactus.field_disclaimer
+    - field.field.block_content.contactus.field_link
+    - field.field.block_content.contactus.field_phone_number
+    - field.field.block_content.contactus.field_registration
+    - field.field.block_content.contactus.field_telephone
+  module:
+    - link
+    - telephone
+    - text
+id: block_content.contactus.default
+targetEntityType: block_content
+bundle: contactus
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_copyright:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_disclaimer:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 29
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_phone_number:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_registration:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_telephone:
+    type: telephone_default
+    weight: 30
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

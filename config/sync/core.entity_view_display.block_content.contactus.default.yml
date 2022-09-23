@@ -1,0 +1,75 @@
+uuid: 5790e415-c296-445c-828b-42091172fe33
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contactus
+    - field.field.block_content.contactus.body
+    - field.field.block_content.contactus.field_copyright
+    - field.field.block_content.contactus.field_disclaimer
+    - field.field.block_content.contactus.field_link
+    - field.field.block_content.contactus.field_phone_number
+    - field.field.block_content.contactus.field_registration
+    - field.field.block_content.contactus.field_telephone
+  module:
+    - link
+    - telephone
+id: block_content.contactus.default
+targetEntityType: block_content
+bundle: contactus
+mode: default
+content:
+  field_copyright:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_disclaimer:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_phone_number:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_registration:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_telephone:
+    type: telephone_link
+    label: hidden
+    settings:
+      title: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true

@@ -1,0 +1,25 @@
+uuid: e262c670-1298-49c2-af00-ac919e7920f9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contactus:82261b16-e99b-43d4-8bdb-cb434a531027'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: contactusblock
+theme: bartik
+region: footer_fourth
+weight: -7
+provider: null
+plugin: 'block_content:82261b16-e99b-43d4-8bdb-cb434a531027'
+settings:
+  id: 'block_content:82261b16-e99b-43d4-8bdb-cb434a531027'
+  label: contactusblock
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

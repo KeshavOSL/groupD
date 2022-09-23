@@ -1,0 +1,8 @@
+uuid: 281c1f92-8bd4-42b2-b5d3-a3deee48f735
+langcode: en
+status: true
+dependencies: {  }
+id: contactus
+label: contactus
+revision: 0
+description: 'block type containing contact info and useful links'

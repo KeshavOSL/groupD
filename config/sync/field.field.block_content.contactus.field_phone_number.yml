@@ -1,0 +1,19 @@
+uuid: a1c77934-9c26-40a2-876e-a8830184a1a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contactus
+    - field.storage.block_content.field_phone_number
+id: block_content.contactus.field_phone_number
+field_name: field_phone_number
+entity_type: block_content
+bundle: contactus
+label: 'phone number'
+description: 'phone number'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

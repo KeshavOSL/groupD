@@ -1,0 +1,19 @@
+uuid: b24bf135-f7f1-4610-8226-e69e31203481
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contactus
+    - field.storage.block_content.field_disclaimer
+id: block_content.contactus.field_disclaimer
+field_name: field_disclaimer
+entity_type: block_content
+bundle: contactus
+label: disclaimer
+description: disclaimer
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
